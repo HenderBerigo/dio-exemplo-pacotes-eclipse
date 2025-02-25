@@ -1,0 +1,5 @@
+package com.hender.clinical.service;
+
+public class ExameService {
+
+}

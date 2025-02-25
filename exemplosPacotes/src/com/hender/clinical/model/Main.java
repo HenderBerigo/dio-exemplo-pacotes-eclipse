@@ -10,7 +10,9 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Digite seu nome: ");
 		String nome = scan.nextLine();
-		System.out.println("Olá "+nome+"!");
+		System.out.print("Digite a sua idade: ");
+		int idade = scan.nextInt();
+		System.out.println("Olá "+nome+", sua idade é: "+idade+"!");
 		scan.close();
 	}
 
